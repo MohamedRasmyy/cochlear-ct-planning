@@ -137,4 +137,4 @@ Python, PyTorch, nibabel, SimpleITK, SciPy, pandas, Matplotlib, FastAPI.
 
 ## License
 
-Add your license here (for example MIT). The dataset has its own license; see the Zenodo record.
+Code: MIT License. The dataset has its own license; see the Zenodo record.
