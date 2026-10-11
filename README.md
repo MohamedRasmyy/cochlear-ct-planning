@@ -4,7 +4,7 @@ An end-to-end deep learning pipeline that takes a temporal-bone CT scan and prod
 
 > **Research prototype. Not a medical device and not for clinical use.** It was trained on a very small dataset and has no surgeon-validated outcome labels. See [Limitations](#limitations).
 
-![3D segmentation: ground truth (green), prediction (red) and overlay](segmentation_3d_overlay.png)
+![3D segmentation: ground truth (green), prediction (red) and overlay](segmentation_3d_overlay.PNG)
 
 *Example test case: ground-truth inner-ear mask (left), predicted mask (middle) and overlay (right), Dice = 0.839 for this case.*
 
