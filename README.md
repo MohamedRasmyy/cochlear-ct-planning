@@ -28,6 +28,12 @@ CT scan (.nii)
 3. **Complexity score.** A weighted sum of z-scored features (`dist_C_RW`, `dist_C_OW`, `dist_RW_OW`, `landmark_span`, `compactness`, `num_components`) is computed against the training cohort and cut at the 33rd and 66th percentiles into three labels.
 4. **Report.** A multi-page PDF with the summary, 3D mask visualization, CT overlays, the full score calculation, and a limitations page.
 
+## Example report
+
+Page 1 of the generated PDF for a test specimen (T06). The label compares the case to the training cohort and is not a clinical risk rating. The full report also includes 3D mask views, CT overlays, the complete score calculation and a limitations page.
+
+![Planning summary page of the generated PDF report](report_summary.png)
+
 ## Results
 
 Evaluated on 5 held-out specimens (F14, F15, T06, T07, T08). Split: 15 train / 3 validation / 5 test.
@@ -80,7 +86,7 @@ Subject split used: train `F01–F10, T01–T05`, validation `F11–F13`, test `
 ## Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/MohamedRasmyy/cochlear-ct-planning.git
 cd cochlear-ct-planning
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -137,4 +143,4 @@ Python, PyTorch, nibabel, SimpleITK, SciPy, pandas, Matplotlib, FastAPI.
 
 ## License
 
-Code: MIT License. The dataset has its own license; see the Zenodo record.
+Code: [MIT License](LICENSE). The dataset has its own license; see the Zenodo record.
