@@ -32,7 +32,7 @@ CT scan (.nii)
 
 Page 1 of the generated PDF for a test specimen (T06). The label compares the case to the training cohort and is not a clinical risk rating. The full report also includes 3D mask views, CT overlays, the complete score calculation and a limitations page.
 
-![Planning summary page of the generated PDF report](report_summary.png)
+![Planning summary page of the generated PDF report](Report.PNG)
 
 ## Results
 
