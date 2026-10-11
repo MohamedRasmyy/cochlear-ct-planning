@@ -1,0 +1,18 @@
+# Core (inference app + report generation)
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+nibabel>=5.0
+matplotlib>=3.7
+scikit-image>=0.21
+
+# Web app
+fastapi>=0.100
+uvicorn[standard]>=0.23
+python-multipart>=0.0.6
+
+# Notebooks / training only (not needed to run the app)
+SimpleITK>=2.2
+ipywidgets>=8.0
+jupyter>=1.0

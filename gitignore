@@ -1,0 +1,16 @@
+# Data (not redistributed)
+*.nii
+*.nii.gz
+DATASET_ROOT/
+
+# Generated
+reports/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments / OS
+.venv/
+venv/
+.env
+.DS_Store
